@@ -30,7 +30,7 @@ function App() {
       setIsLogin(true);
       let userLoggedin = JSON.parse(loginUser);
       if (userLoggedin.isAdmin === true) {
-        setIsAdmin(true);
+        setIsAdmin(true); 
       }
     }
   }, []);
